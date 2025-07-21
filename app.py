@@ -6,9 +6,9 @@ from pydantic import BaseModel, Field
 from typing import List
 
 # Read API key
-with open("key.txt") as f:
-    OPENAI_API_KEY = f.read().strip()
-
+# with open("key.txt") as f:
+#     OPENAI_API_KEY = f.read().strip()
+OPENAI_API_KEY = "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"
 
 # Define output structure
 class RecipeOutput(BaseModel):
